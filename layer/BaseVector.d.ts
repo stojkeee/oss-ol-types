@@ -15,6 +15,9 @@ import Layer from './Layer';
 
 export interface Options {
     className?: string | undefined;
+    name?: string | undefined;
+    title?: string | undefined;
+    type?: string | undefined;
     opacity?: number | undefined;
     visible?: boolean | undefined;
     extent?: Extent | undefined;
